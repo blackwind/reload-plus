@@ -1,0 +1,4 @@
+content	reloadplus	jar:chrome/reloadplus.jar!/content/
+locale	reloadplus	en-US	jar:chrome/reloadplus.jar!/locale/en-US/
+skin	reloadplus	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://reloadplus/content/firefoxOverlay.xul
