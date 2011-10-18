@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+<settings xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <setting title="Actions - Left Mouse (or FKey)" pref="extensions.reloadplus.actions.modOpen0" type="control">
+    <menulist id="reloadplus-actions-modOpen0" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modOpen0', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modOpen0-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Ctrl+LMouse (or Ctrl+FKey)" pref="extensions.reloadplus.actions.modCtrl0" type="control">
+    <menulist id="reloadplus-actions-modCtrl0" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modCtrl0', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modCtrl0-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Alt+LMouse (or Alt+FKey)" pref="extensions.reloadplus.actions.modAlt0" type="control">
+    <menulist id="reloadplus-actions-modAlt0" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modAlt0', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modAlt0-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Shift+LMouse (or Shift+FKey)" pref="extensions.reloadplus.actions.modShift0" type="control">
+    <menulist id="reloadplus-actions-modShift0" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modShift0', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modShift0-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Middle Mouse" pref="extensions.reloadplus.actions.modOpen1" type="control">
+    <menulist id="reloadplus-actions-modOpen1" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modOpen1', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modOpen1-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Ctrl+MMouse" pref="extensions.reloadplus.actions.modCtrl1" type="control">
+    <menulist id="reloadplus-actions-modCtrl1" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modCtrl1', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modCtrl1-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Alt+MMouse" pref="extensions.reloadplus.actions.modAlt1" type="control">
+    <menulist id="reloadplus-actions-modAlt1" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modAlt1', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modAlt1-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Actions - Shift+MMouse" pref="extensions.reloadplus.actions.modShift1" type="control">
+    <menulist id="reloadplus-actions-modShift1" oncommand="Services.prefs.setIntPref('extensions.reloadplus.actions.modShift1', this.getAttribute('value'));">
+      <menupopup id="reloadplus-actions-modShift1-popup" />
+    </menulist>
+  </setting>
+
+  <setting title="Auto-Retry Delay" pref="extensions.reloadplus.autoRetryDelay" type="integer">
+    "Problem loading page"? R+ can retry every &lt;x&gt; seconds. [default: 0 (disabled)]
+  </setting>
+
+  <setting title="Function Key" pref="extensions.reloadplus.functionKey" type="control">
+    Running Linux? R+ can bind to an alternate function key. [default: F5] 
+    <menulist id="reloadplus-functionKey" oncommand="Services.prefs.setIntPref('extensions.reloadplus.functionKey', this.getAttribute('value'));">
+      <menupopup>
+        <menuitem value="1" label="F1" />
+        <menuitem value="2" label="F2" />
+        <menuitem value="3" label="F3" />
+        <menuitem value="4" label="F4" />
+        <menuitem value="5" label="F5" />
+        <menuitem value="6" label="F6" />
+        <menuitem value="7" label="F7" />
+        <menuitem value="8" label="F8" />
+        <menuitem value="9" label="F9" />
+        <menuitem value="10" label="F10" />
+        <menuitem value="11" label="F11" />
+        <menuitem value="12" label="F12" />
+      </menupopup>
+    </menulist>
+  </setting>
+
+  <setting title="Trackpad Support" pref="extensions.reloadplus.rightIsMiddle" type="bool">
+    Using a trackpad? R+ can treat RMouse just as it does MMouse. [default: disabled]
+  </setting>
+</settings>
