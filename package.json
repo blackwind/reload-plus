@@ -1,9 +1,11 @@
 {
   "title": "Reload Plus",
-  "version": "4.4.0",
+  "version": "5.0.0",
   "author": "bwProductions",
   "description": "Supercharge your reload button and hotkeys!",
   "id": "reloadplus@blackwind",
   "main": "lib/main.js",
+  "multiprocess": true,
+  "permissions": {"private-browsing": true},
   "preferences-branch": "reloadplus"
 }
