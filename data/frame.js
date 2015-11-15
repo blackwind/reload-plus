@@ -6,7 +6,7 @@
     var entry = webNav.sessionHistory.getEntryAtIndex(webNav.sessionHistory.index, false).QueryInterface(Ci.nsISHEntry);
 
     var currentURI = webNav.currentURI.spec;
-    var loadFlags = Ci.nsIWebNavigation.LOAD_FLAGS_NONE;
+    var loadFlags = Ci.nsIWebNavigation.LOAD_FLAGS_BYPASS_HISTORY;
     var postData = entry.postData;
     var referrerURI = entry.referrerURI;
 
