@@ -7,7 +7,9 @@
   "id": "reloadplus@blackwind",
   "license": "GPL-3.0+",
   "main": "lib/main.js",
-  "multiprocess": true,
-  "permissions": {"private-browsing": true},
+  "permissions": {
+    "multiprocess": true,
+    "private-browsing": true
+  },
   "preferences-branch": "reloadplus"
 }
