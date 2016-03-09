@@ -3,7 +3,6 @@
 
 # Project files
 /.jpmignore
-/package.json
 /README.*
 
 # Version control
