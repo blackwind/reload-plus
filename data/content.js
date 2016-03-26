@@ -19,7 +19,7 @@
     getAllDocuments: function(document) {
       var result = [document];
       var frames = Array.concat(Array.slice(document.getElementsByTagName("frame")), Array.slice(document.getElementsByTagName("iframe")));
-      for each (var frame in frames) {
+      for (var frame of frames) {
         if (frame.contentDocument)
           result = result.concat(arguments.callee(frame.contentDocument));
       }
@@ -29,8 +29,8 @@
 
   switch (self.options.do) {
     case "loadMissingImages":
-      for each (var doc in bwDOM.getAllDocuments(document)) {
-        for each (var img in doc.getElementsByTagName("img"))
+      for (var doc of bwDOM.getAllDocuments(document)) {
+        for (var img of doc.getElementsByTagName("img"))
           img.src = img.src;
       }
       break;
