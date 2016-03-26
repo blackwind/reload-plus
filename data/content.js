@@ -14,6 +14,8 @@
 // You should have received a copy of the GNU General Public License along
 // with this add-on. If not, see <http://www.gnu.org/licenses/>.
 
+"use strict";
+
 (function() {
   var bwDOM = {
     getAllDocuments: function(document) {
@@ -21,7 +23,7 @@
       var frames = Array.concat(Array.slice(document.getElementsByTagName("frame")), Array.slice(document.getElementsByTagName("iframe")));
       for (var frame of frames) {
         if (frame.contentDocument)
-          result = result.concat(arguments.callee(frame.contentDocument));
+          result = result.concat(bwDOM.getAllDocuments(frame.contentDocument));
       }
       return result;
     },

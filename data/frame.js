@@ -14,6 +14,8 @@
 // You should have received a copy of the GNU General Public License along
 // with this add-on. If not, see <http://www.gnu.org/licenses/>.
 
+"use strict";
+
 (function() {
   var Ci = Components.interfaces;
 
@@ -26,7 +28,7 @@
     var postData = entry.postData;
     var referrerURI = entry.referrerURI;
 
-    addMessageListener("reload", function() { removeMessageListener("reload", arguments.callee);
+    addMessageListener("reload", function callee() { removeMessageListener("reload", callee);
       webNav.loadURI(currentURI, loadFlags, referrerURI, postData, null);
     });
 
