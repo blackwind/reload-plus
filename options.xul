@@ -57,6 +57,10 @@
     </menulist>
   </setting>
 
+  <setting title="Target All Windows" pref="extensions.reloadplus.targetAllWindows" type="bool">
+    Multiple windows? R+ can apply actions affecting multiple tabs to all windows. [default: disabled]
+  </setting>
+
   <setting title="Trackpad Support" pref="extensions.reloadplus.rightIsMiddle" type="bool">
     Using a trackpad? R+ can treat RMouse just as it does MMouse. [default: disabled]
   </setting>
