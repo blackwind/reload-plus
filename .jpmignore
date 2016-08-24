@@ -4,6 +4,3 @@
 # Project files
 /.*
 /README.*
-
-# Version control
-/.git/
