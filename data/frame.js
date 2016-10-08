@@ -33,7 +33,7 @@
     });
 
     sendAsyncMessage("response", {
-      "posted": Boolean(postData),
+      "posted": false,
       "url": currentURI,
     });
   });
