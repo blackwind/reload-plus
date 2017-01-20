@@ -15,6 +15,7 @@
 // with this add-on. If not, see <http://www.gnu.org/licenses/>.
 
 "use strict";
+/* eslint no-undef: "off" */
 
 (function() {
   var Ci = Components.interfaces;
@@ -28,7 +29,7 @@
     var postData = entry.postData;
     var referrerURI = entry.referrerURI;
 
-    addMessageListener("reload", function callee() { removeMessageListener("reload", callee);
+    addMessageListener("reload", function callee() { removeMessageListener("reload", callee);  // eslint-disable-line
       webNav.loadURI(currentURI, loadFlags, referrerURI, postData, null);
     });
 
