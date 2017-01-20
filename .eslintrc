@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "brace-style": ["error", "1tbs", {"allowSingleLine": true}],
+    "comma-dangle": ["error", "always-multiline"],
+    "dot-notation": "error",
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "keyword-spacing": ["error", {"after": true, "before": true}],
+    "no-cond-assign": "off",
+    "no-console": "warn",
+    "no-empty": ["error", {"allowEmptyCatch": true}],
+    "no-redeclare": "off",
+    "no-unused-expressions": "error",
+    "quotes": ["error", "double", {"avoidEscape": true}],
+    "space-before-blocks": "error",
+    "space-before-function-paren": ["error", {"anonymous": "never"}],
+  },
+}
