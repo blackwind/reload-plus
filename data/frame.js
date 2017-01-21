@@ -15,7 +15,7 @@
 // with this add-on. If not, see <http://www.gnu.org/licenses/>.
 
 "use strict";
-/* eslint no-undef: "off" */
+/* global addMessageListener, Components, docShell, removeMessageListener, sendAsyncMessage */
 
 (function() {
   var Ci = Components.interfaces;
