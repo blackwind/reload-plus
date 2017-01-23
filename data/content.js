@@ -21,18 +21,18 @@
     getAllDocuments: function(document) {
       var result = [document];
       var frames = Array.concat(Array.slice(document.getElementsByTagName("frame")), Array.slice(document.getElementsByTagName("iframe")));
-      for (var frame of frames) {
+      for (let frame of frames) {
         if (frame.contentDocument)
           result = result.concat(bwDOM.getAllDocuments(frame.contentDocument));
       }
       return result;
     },
-  }
+  };
 
   switch (self.options.do) {
     case "loadMissingImages":
-      for (var doc of bwDOM.getAllDocuments(document)) {
-        for (var img of doc.getElementsByTagName("img"))
+      for (let doc of bwDOM.getAllDocuments(document)) {
+        for (let img of doc.getElementsByTagName("img"))
           img.src = img.src;
       }
       break;
