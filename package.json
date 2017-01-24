@@ -1,12 +1,12 @@
 {
   "title": "Reload Plus",
   "version": "5.1.0",
+  "author": "bwProductions",
+  "description": "Supercharge your reload button and hotkeys!",
   "engines": {
       "firefox": ">=38.0a1",
       "{8de7fcbb-c55c-4fbe-bfc5-fc555c87dbc4}": ">=27.1.0b1"
    },
-  "author": "bwProductions",
-  "description": "Supercharge your reload button and hotkeys!",
   "homepage": "https://github.com/blackwind/reload-plus/issues",
   "id": "reloadplus@blackwind",
   "license": "GPL-3.0+",
