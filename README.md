@@ -1,4 +1,4 @@
-# Reload Plus [![Build status](https://ci.appveyor.com/api/projects/status/9c9v0cxv78dhk8n3/branch/master?svg=true)](https://ci.appveyor.com/project/blackwind/reload-plus/branch/master)
+# Reload Plus [![Build Status](https://ci.appveyor.com/api/projects/status/9c9v0cxv78dhk8n3/branch/master?svg=true)](https://ci.appveyor.com/project/blackwind/reload-plus/branch/master) [![AMO Version](https://img.shields.io/amo/v/reload-plus.svg?label=amo)](https://addons.mozilla.org/firefox/addon/reload-plus/) ![Rating](https://img.shields.io/amo/rating/reload-plus.svg) ![Users](https://img.shields.io/amo/users/reload-plus.svg)
 
 Reload Plus makes the following (user-configurable) changes to the behavior of Firefox's "Reload" button:
 
