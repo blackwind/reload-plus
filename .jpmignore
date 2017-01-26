@@ -1,5 +1,8 @@
+# Backup files
+*.bak
+
 # Build output
-/*.xpi
+*.xpi
 
 # Project files
 /.*
